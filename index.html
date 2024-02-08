@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Login modal</title>
+</head>
+
+<body>
+    <section>
+        <div>
+            <button id="Btn-login" class="login">Login</button>
+        </div>
+        <div id="loginModal"  class="login-modal hidden">
+            <div class="title">
+                <h1>Good To See You Again</h1>
+                <i id="close-btn" class="fa-solid fa-xmark"></i>
+            </div>
+            <form>
+                <label for="email">Email</label>
+                <input type="email" placeholder="email">
+
+                <label for="password">Password</label>
+                <input type="password" placeholder="password">
+
+                <button type="submit" class="btn-submit">Login</button>
+            </form>
+        </div>
+    </section>
+</body>
+<script src="app.js"></script>
+
+</html>
